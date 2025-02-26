@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 200vh;        
+    margin: 0;             
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    background-color: black; /* Set background to black */
+    color: whitesmoke; /* Set text color to black */
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 5px; 
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: rgb(11, 11, 11);
+}
+
+input[type="number"] {
+    width: 265px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: black; /* Set background to black */
+    color: white; /* Set text color to white for contrast */
+    border: 1px solid whitesmoke
+}
+
+.calculator {
+    border: 1px solid #333;  
+    border-radius: 0px;         
+    padding: 20px;                 
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 296px;          
+    gap: 10px; 
+    background-color: #a2c2e1;               
+}
+
+button[onclick="add()"] { 
+    color: rgb(252, 251, 251);
+}
+button[onclick="sub()"] { 
+    color: rgb(252, 249, 249);
+}
+
+button[onclick="mult()"] { 
+    color: rgb(255, 253, 253);
+}
+
+button[onclick="div()"] { 
+    color: rgb(248, 247, 247);
+}
+
+button[onclick="AC()"] {  
+    color: rgb(247, 245, 245);
+}
+
+button[onclick="sin()"] {  
+    color: rgb(244, 241, 241);
+}
+
+button[onclick="log()"] { 
+    color: rgb(254, 251, 251);
+}
+
+button[onclick="e()"] { 
+    color: rgb(247, 244, 244);
+}
+
+button[onclick="mod()"] { 
+    color: rgb(243, 241, 241);
+}
+
+button[onclick="fact()"] { 
+    color: rgb(253, 250, 250);
+}
